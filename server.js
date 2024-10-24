@@ -10,7 +10,7 @@ const useNgrok = false; // Toggle this value
 const corsOptions = {
   origin: '*', 
   methods: 'GET,POST,PUT,DELETE,OPTIONS', // Include all necessary methods
-  allowedHeaders: 'Content-Type,Authorization,X-Requested-With,Origin,Accept',
+  allowedHeaders: 'Content-Type, Authorization, X-Frontegg-SDK, x-frontegg-framework, frontegg-requested-application-id',
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
@@ -27,7 +27,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/overrides', (req, res) => {
+app.get('/overrides', cors(corsOptions), (req, res) => {
   res.send({
     themeV2: {
       loginBox:{
