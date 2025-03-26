@@ -32,7 +32,8 @@ In hosted mode, it is necessary to deploy a server or Lambda function. When the 
 
 ```
 
-# Setup
+## Testing Locally
+
 If you want to test locally and avoid CORS issues, you can run the server on Chrome with the following command on Mac for example:
 ```
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir="~/ChromeDev"
