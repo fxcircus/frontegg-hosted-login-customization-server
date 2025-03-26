@@ -42,8 +42,10 @@ This will disable web security in Chrome, allowing local requests to bypass CORS
 
 Use this method for development and testing only. For production, host the server on a publicly accessible domain.
 
-## Example
+## Final result
+Here is an example where we add a custom header to the page on top of the login box we created in the Frontegg builder.
 
+We also change the text for the different input fields, lebels etc'.
 ![Screenshot](screenshot.png)
 
 
