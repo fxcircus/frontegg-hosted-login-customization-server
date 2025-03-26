@@ -1,6 +1,9 @@
 # Frontegg Hosted Login Box Customization Overrides Server
 
-This project provides a Node.js server that handles metadata overrides for customizing the Frontegg login box.
+This project includes a Node.js server designed to manage metadata overrides for customizing the Frontegg login box.
+
+In hosted mode, it is necessary to deploy a server or Lambda function. When the login box is loaded, Frontegg will send a GET request to your server to retrieve the appropriate localizations.
+
 
 ## Prerequisites
 
