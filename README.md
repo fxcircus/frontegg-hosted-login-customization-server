@@ -16,7 +16,7 @@ In hosted mode, it is necessary to deploy a server or Lambda function. When the 
 1. Use the Frontegg builder to achieve the desired visual style for your login box, such as color changes, font choices, and logo placements.
 
 
-2. Clone this repo and Cchoose a hosting platform like Heroku or a similar service that suits your needs. Deploy your code to the chosen platform. Once deployed, obtain the publicly accessible URL of your server. It should look like https://yourserveraddress/overrides.
+2. Clone this repo and choose a hosting platform like Heroku or a similar service that suits your needs. Deploy your code to the chosen platform. Once deployed, obtain the publicly accessible URL of your server. It should look like https://yourserveraddress/overrides.
 
 3. Follow [the instructions here to implement Frontegg Metadata Overrides](https://docs.frontegg.com/docs/hosted-and-embedded-setup#getting-started-with-metadataoverrides) to connect your hosted login box to the server.
 
