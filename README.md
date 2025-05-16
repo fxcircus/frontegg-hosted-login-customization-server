@@ -18,7 +18,7 @@ In hosted mode, it is necessary to deploy a server or Lambda function. When the 
 
 2. Clone this repo and choose a hosting platform like Heroku or a similar service that suits your needs. Deploy your code to the chosen platform. Once deployed, obtain the publicly accessible URL of your server. It should look like https://yourserveraddress/overrides.
 
-3. Follow [the instructions here to implement Frontegg Metadata Overrides]([https://docs.frontegg.com/docs/hosted-and-embedded-setup#getting-started-with-metadataoverrides](https://developers.frontegg.com/sdks/customizations/configuration#customization-in-the-hosted-mode)) to connect your hosted login box to the server.
+3. Follow the instructions [here](https://developers.frontegg.com/sdks/customizations/configuration#customization-in-the-hosted-mode)  to implement Frontegg Metadata Overrides and connect your hosted login box to the server.
 
 4. Load your hosted login box (The `Login URL` from `Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page`, followed by `/account/login`). For example - `https://app-frtqiefxjqn9.frontegg.com/oauth/account/login`. You should see the settings are applied.
 
